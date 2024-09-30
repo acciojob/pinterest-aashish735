@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust height as needed */
+  background-color: #f0f0f0; /* Change background color as desired */
+}
+
+.hero img {
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  object-fit: cover;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
